@@ -9,7 +9,12 @@ function App() {
   // const [items, setItems] = useState(null);
   // pass the item to UpdateItem as a prop
 
-  return <ItemList />;
+  return (
+    <div>
+        <h1>Door Management</h1>
+        <ItemList />
+    </div>
+);
 }
 
 export default App;
